@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to practice using a Data Stream Action.</description>
+        <internal_name>glaciers_latlong</internal_name>
+        <label_cache>[{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.item_count","label":"1 - World Glaciers - LatLong➛Item Count","reference_display":"Item Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","visible_in_ad":"false"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.page_count","label":"1 - World Glaciers - LatLong➛Page Count","reference_display":"Page Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","visible_in_ad":"false"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.count","label":"1 - World Glaciers - LatLong➛count","reference_display":"count","type":"integer","base_type":"integer","attributes":{"visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.ds_count","label":"1 - World Glaciers - LatLong➛ds_count","reference_display":"ds_count","type":"integer","base_type":"integer","attributes":{"visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.item","label":"1 - World Glaciers - LatLong➛item","reference_display":"item","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.ds_output_page_variables","label":"1 - World Glaciers - LatLong➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.first_glacier_to_get","label":"1 - World Glaciers - LatLong➛First glacier to get","reference_display":"First glacier to get","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c3dd0467-d67c-43d3-9deb-5430553da561"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.glaciers_per_page","label":"1 - World Glaciers - LatLong➛Glaciers per page","reference_display":"Glaciers per page","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d24dd024-9364-4bbe-8b16-02d848aa534f"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.number_of_pages","label":"1 - World Glaciers - LatLong➛Number of pages","reference_display":"Number of pages","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"289316f4-e389-41b2-a8e3-46d0e9d066d4"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.response_headers","label":"1 - World Glaciers - LatLong➛response_headers","reference_display":"response_headers","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.error_message","label":"1 - World Glaciers - LatLong➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.status_code","label":"1 - World Glaciers - LatLong➛status_code","reference_display":"status_code","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.error_code","label":"1 - World Glaciers - LatLong➛error_code","reference_display":"error_code","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.ds_parsed_stream","label":"1 - World Glaciers - LatLong➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.glacier_record","label":"1 - World Glaciers - LatLong➛Glacier record","reference_display":"Glacier record","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD67c81ddf9c096110e8c257353c3579e3","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"d353c2a7-1687-4a9b-9ea9-77012e39e05c"}},{"name":"614f0f40-2035-4055-bc2c-97199398e30b.__action_status__","label":"2 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"614f0f40-2035-4055-bc2c-97199398e30b.__dont_treat_as_error__","label":"2 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.glacier_record.id","label":"1 - World Glaciers - LatLong➛Glacier record➛ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.glacier_record.name","label":"1 - World Glaciers - LatLong➛Glacier record➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Glaciers LatLong</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 13:57:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e09d51b2f096110bfb5265df699b6c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Glaciers LatLong</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="World Glaciers Spoke" source="x_854420_world_gla">36dfa05b2f856110bfb5265df699b610</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="World Glaciers Spoke">36dfa05b2f856110bfb5265df699b610</sys_scope>
+        <sys_update_name>sys_hub_flow_3e09d51b2f096110bfb5265df699b6c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 14:00:30</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=3e09d51b2f096110bfb5265df699b6c3^sys_idNOT INc3b9dd132f496110bfb5265df699b649"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Glaciers LatLong">3e09d51b2f096110bfb5265df699b6c3</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 14:00:28</sys_created_on>
+        <sys_id>c3b9dd132f496110bfb5265df699b649</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 14:00:28</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c3b9dd132f496110bfb5265df699b649"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c3b9dd132f496110bfb5265df699b649</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 14:00:29</sys_created_on>
+        <sys_id>8fb9dd132f496110bfb5265df699b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 14:00:29</sys_updated_on>
+        <value>2023-02-23 02:10:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=c3b9dd132f496110bfb5265df699b649"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3e09d51b2f096110bfb5265df699b6c3^sys_idNOT IN320991132f496110bfb5265df699b6d6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3e09d51b2f096110bfb5265df699b6c3</id>
+        <name>Glaciers LatLong</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 13:57:27</sys_created_on>
+        <sys_id>320991132f496110bfb5265df699b6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 13:57:27</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=320991132f496110bfb5265df699b6d6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3e09d51b2f096110bfb5265df699b6c3^sys_idNOT INd3b9dd132f496110bfb5265df699b670,dfb9dd132f496110bfb5265df699b676"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="World Glaciers - LatLong">f2c81ddf2f096110bfb5265df699b629</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Glaciers LatLong">3e09d51b2f096110bfb5265df699b6c3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 14:00:29</sys_created_on>
+        <sys_id>d3b9dd132f496110bfb5265df699b670</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="World Glaciers Spoke">36dfa05b2f856110bfb5265df699b610</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 14:00:29</sys_updated_on>
+        <ui_id>7d80af8c-cfb3-41ba-838f-e93d8c5b72b8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d3b9dd132f496110bfb5265df699b670"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3b9dd132f496110bfb5265df699b670</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 14:00:29</sys_created_on>
+        <sys_id>57b9dd132f496110bfb5265df699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 14:00:29</sys_updated_on>
+        <value>1900</value>
+        <variable display_value="First Glacier">72c81ddf2f096110bfb5265df699b62c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3b9dd132f496110bfb5265df699b670</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 14:00:29</sys_created_on>
+        <sys_id>93b9dd132f496110bfb5265df699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 14:00:29</sys_updated_on>
+        <value>4</value>
+        <variable display_value="Glaciers per page">32c81ddf2f096110bfb5265df699b631</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3b9dd132f496110bfb5265df699b670</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 14:00:29</sys_created_on>
+        <sys_id>dfb9dd132f496110bfb5265df699b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 14:00:29</sys_updated_on>
+        <value>3</value>
+        <variable display_value="Pages to get">b6c81ddf2f096110bfb5265df699b635</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f2c81ddf2f096110bfb5265df699b629^id=d3b9dd132f496110bfb5265df699b670"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d3b9dd132f496110bfb5265df699b670"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d3b9dd132f496110bfb5265df699b670"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Glaciers LatLong">3e09d51b2f096110bfb5265df699b6c3</flow>
+        <order>2</order>
+        <parent_ui_id>7d80af8c-cfb3-41ba-838f-e93d8c5b72b8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 14:00:30</sys_created_on>
+        <sys_id>dfb9dd132f496110bfb5265df699b676</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="World Glaciers Spoke">36dfa05b2f856110bfb5265df699b610</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 14:00:30</sys_updated_on>
+        <ui_id>614f0f40-2035-4055-bc2c-97199398e30b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dfb9dd132f496110bfb5265df699b676"/>
+    <sys_element_mapping action="delete_multiple" query="id=dfb9dd132f496110bfb5265df699b676"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>dfb9dd132f496110bfb5265df699b676</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 14:00:30</sys_created_on>
+        <sys_id>1fb9dd132f496110bfb5265df699b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 14:00:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Glacier ID = {{7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.glacier_record.id}}, Name = {{7d80af8c-cfb3-41ba-838f-e93d8c5b72b8.glacier_record.name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dfb9dd132f496110bfb5265df699b676"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dfb9dd132f496110bfb5265df699b676"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3e09d51b2f096110bfb5265df699b6c3"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3e09d51b2f096110bfb5265df699b6c3"/>
+</record_update>
